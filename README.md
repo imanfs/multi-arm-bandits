@@ -1,4 +1,4 @@
-# multi-arm-bandits
+# Multi-arm Bandits
 
 In this repository, different reinforcement learning agents are implemented and their performance is copmared for both stationary and non-stationary environments. 
 
