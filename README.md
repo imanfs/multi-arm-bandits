@@ -1,6 +1,8 @@
 # Multi-arm Bandits
 
-In this repository, different reinforcement learning agents are implemented and their performance is copmared for both stationary and non-stationary environments. 
+In this repository, different reinforcement learning agents are implemented and their performance is compared for both stationary and non-stationary environments. The REINFORCE agent is implemented with the `square-max` policy parameterization. With this parametrisation the probabilities depend on the action preferences $p(\cdot)$ according to the expression:
+
+$$\pi(a) = \frac{p(a)^2}{\sum_b p(b)^2}\.$$
 
 Since UCB works by prioritising the actions which have been selected less, it encourages exploration, thus is likely to perform well in general.
 
